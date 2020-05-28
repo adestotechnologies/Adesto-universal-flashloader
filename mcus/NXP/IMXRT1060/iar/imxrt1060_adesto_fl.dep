@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2244580721</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Debug\Obj\system_MIMXRT1062.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\fsl_clock.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\adesto_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\adesto_detect.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\imxrt1060_adesto_fl.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\fhc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock_config.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\fhc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_MIMXRT1062.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_loader_ram.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_loader.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\adesto\adesto_detect.c</file>
+            <file>$PROJ_DIR$\..\sdk\fsl_clock.c</file>
+            <file>$PROJ_DIR$\..\sdk\system_MIMXRT1062.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\imxrt1060_adesto_fl.pbd</file>
+            <file>$PROJ_DIR$\..\al\sys_init.c</file>
+            <file>$PROJ_DIR$\..\sdk\fsl_common.c</file>
+            <file>$PROJ_DIR$\..\al\fhc.c</file>
+            <file>$PROJ_DIR$\..\al\clock_config.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\adesto\adesto_drv.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_loader_ram.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_loader_asm.s</file>
+            <file>$PROJ_DIR$\..\sdk\fsl_flexspi.c</file>
+            <file>$PROJ_DIR$\..\al\adesto_lut.c</file>
+            <file>$PROJ_DIR$\..\sdk\fsl_gpio.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys_init.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\fsl_flexspi.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\fsl_clock.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\fsl_common.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_loader.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_loader_ram.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\adesto_detect.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\adesto_drv.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock_config.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\fsl_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\adesto_lut.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys_init.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_loader_asm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\fsl_common.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_loader.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\fsl_flexspi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\adesto_lut.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\imxrt1060_adesto_fl.srec</file>
+            <file>$PROJ_DIR$\Debug\Obj\fsl_gpio.xcl</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\imxrt1060_adesto_fl.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_loader.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\adesto\adesto_detect.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\sdk\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\sdk\system_MIMXRT1062.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\al\sys_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\sdk\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\al\fhc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\al\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\adesto\adesto_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_loader_ram.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_loader_asm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\sdk\fsl_flexspi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\al\adesto_lut.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\sdk\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs>
+            <file>$PROJ_DIR$\Release\Obj\fsl_common.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\fsl_clock.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\flash_loader.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\flash_loader_asm.o</file>
+            <file>$PROJ_DIR$\Release\Obj\clock_config.o</file>
+            <file>$PROJ_DIR$\Release\Obj\adesto_detect.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\fsl_common.o</file>
+            <file>$PROJ_DIR$\Release\Obj\clock_config.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\fsl_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\sys_init.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\fsl_clock.o</file>
+            <file>$PROJ_DIR$\Release\Obj\adesto_detect.o</file>
+            <file>$PROJ_DIR$\Release\Obj\fsl_common.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\..\sdk\fsl_flexspi.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\FlashIMXRT1060_RAM.icf</file>
+            <file>$PROJ_DIR$\..\sdk\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\sdk\system_MIMXRT1062.h</file>
+            <file>$PROJ_DIR$\..\sdk\cmsis_compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\adesto\adesto_defs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_loader_extra.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_config.h</file>
+            <file>$PROJ_DIR$\..\sdk\core_cm7.h</file>
+            <file>$PROJ_DIR$\..\al\clock_config.h</file>
+            <file>$PROJ_DIR$\..\sdk\fsl_common.h</file>
+            <file>$PROJ_DIR$\..\sdk\fsl_device_registers.h</file>
+            <file>$PROJ_DIR$\..\sdk\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_loader.h</file>
+            <file>$PROJ_DIR$\..\sdk\fsl_iomuxc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\Release\Obj\adesto_lut.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\adesto_detect.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\sys_init.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Release\Obj\adesto_lut.o</file>
+            <file>$PROJ_DIR$\Release\Obj\adesto_drv.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\fsl_gpio.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\fsl_flexspi.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\system_MIMXRT1062.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\fsl_flexspi.o</file>
+            <file>$PROJ_DIR$\Release\Obj\flash_loader.o</file>
+            <file>$PROJ_DIR$\Release\Obj\fhc.o</file>
+            <file>$PROJ_DIR$\Release\Obj\sys_init.o</file>
+            <file>$PROJ_DIR$\Release\Obj\system_MIMXRT1062.o</file>
+            <file>$PROJ_DIR$\Release\Obj\fsl_flexspi.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\flash_loader_ram.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\adesto_drv.o</file>
+            <file>$PROJ_DIR$\Release\Obj\fsl_gpio.o</file>
+            <file>$PROJ_DIR$\Release\Obj\flash_loader_ram.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\adesto_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\clock_config.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\fhc.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\system_MIMXRT1062.xcl</file>
+            <file>$PROJ_DIR$\Release\Exe\imxrt1060_adesto_fl.out</file>
+            <file>$PROJ_DIR$\Release\List\imxrt1060_adesto_fl.map</file>
+            <file>$PROJ_DIR$\Release\Obj\flash_loader.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\fhc.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\adesto_lut.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\flash_loader_ram.o</file>
+            <file>$PROJ_DIR$\Release\Exe\imxrt1060_adesto_fl.srec</file>
+            <file>$PROJ_DIR$\Release\Obj\fsl_clock.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_loader.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\adesto\adesto_detect.c</file>
+            <file>$PROJ_DIR$\..\sdk\fsl_clock.c</file>
+            <file>$PROJ_DIR$\..\sdk\system_MIMXRT1062.c</file>
+            <file>$PROJ_DIR$\..\al\sys_init.c</file>
+            <file>$PROJ_DIR$\..\sdk\MIMXRT1062.h</file>
+            <file>$PROJ_DIR$\..\sdk\fsl_common.c</file>
+            <file>$PROJ_DIR$\..\al\fhc.c</file>
+            <file>$PROJ_DIR$\..\al\clock_config.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\adesto\adesto_drv.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_loader_ram.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_loader_asm.s</file>
+            <file>$PROJ_DIR$\..\sdk\fsl_flexspi.c</file>
+            <file>$PROJ_DIR$\..\al\adesto_lut.c</file>
+            <file>$PROJ_DIR$\..\sdk\fsl_gpio.c</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\..\al\fhc_defs.h</file>
+            <file>$PROJ_DIR$\..\sdk\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\sdk\fsl_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\..\sdk\fsl_clock.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\sdk\MIMXRT1062_features.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 58 57</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Release\Exe\imxrt1060_adesto_fl.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 18 11 50 38 4 45 44 3 62 10 6 43 51 46 47 93 80 91</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_loader.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 2</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 25 94 82 88 81 89 87 24</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\adesto\adesto_detect.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23 94 82 88 81 89 87 83 15 90 14</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\sdk\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 28 17 82 88 81 89 87 83 94 22 90 13 15 14 33 29 70 26 85 21 19 37 30 20 95</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\sdk\system_MIMXRT1062.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94 82 88 81 89 87 29 70 26 85 21 19 37 30 20 95</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\al\sys_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27 28 17 82 88 81 89 87 83 94 22 90 13 15 14 33 29 70 26 85 21 19 37 30 20 95 92</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\sdk\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28 17 82 88 81 89 87 83 94 22 90 13 15 14 33 29 70 26 85 21 19 37 30 20 95 92</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\al\fhc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23 94 82 88 81 89 87 83 15 90 14 84 32 28 17 22 13 33 29 70 26 85 21 19 37 30 20 95 92 86 16</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\al\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28 17 82 88 81 89 87 83 94 22 90 13 15 14 33 29 70 26 85 21 19 37 30 20 95 92 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\adesto\adesto_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23 94 82 88 81 89 87 83 15 90 14</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_loader_ram.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 25 94 82 88 81 89 87 24 23 83 15 90 14</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\toolchains\iar\flash_loader_asm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\sdk\fsl_flexspi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16 33 82 88 81 89 87 90 29 70 26 94 85 21 19 37 30 20 95 28 17 83 22 13 15 14 92</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\al\adesto_lut.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23 94 82 88 81 89 87 83 15 90 14 84 16 33 29 70 26 85 21 19 37 30 20 95 28 17 22 13 92</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\sdk\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 28 17 82 88 81 89 87 83 94 22 90 13 15 14 33 29 70 26 85 21 19 37 30 20 95 92</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+</project>
